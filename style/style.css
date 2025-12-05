@@ -232,6 +232,44 @@ li {
     height: 100%;
 }
 
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 1.5vw;
+    margin: 0 auto;
+    box-shadow: 5px 5px 5px #000;
+    background-color: #FFF0F5;
+}
+
+table, th, td {
+    border: 1px solid #000;
+    text-shadow: 2px 2px 2px #AAA;
+}
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+
+tr:first-child {
+    background-color: darkred;
+    color: white;
+}
+
+tr td:first-child {
+    font-weight: bold;
+    color: darkmagenta;
+}
+
+td a {
+    text-decoration: none;
+    color: darkred;
+}
+
+td a:hover {
+    text-decoration: underline;
+    color: #74235D;
+}
+
 form {
     font-size: 1.5vw;
     display: flex;
