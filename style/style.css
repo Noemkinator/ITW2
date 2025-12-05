@@ -24,7 +24,7 @@ main {
 header {
     background-color: #000;
     color: white;
-    background-image: url("/img/MORI-0013.gif");
+    background-image: url("../img/MORI-0013.gif");
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: 100vw ;
